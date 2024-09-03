@@ -1,0 +1,16 @@
+{
+    "name": "pay-people/laravel-bugs-generator",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9",
+        "laravel/tinker": "^2.9"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

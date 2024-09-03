@@ -1,0 +1,39 @@
+###
+GET {{API_URL}}/statusOk
+Accept: application/json
+
+###
+GET {{API_URL}}/UnprocessableEntity
+Accept: application/json
+
+###
+GET {{API_URL}}/phpException
+Accept: application/json
+
+###
+GET {{API_URL}}/nonsense
+Accept: application/json
+
+###
+GET {{API_URL}}/logInfo
+Accept: application/json
+
+###
+GET {{API_URL}}/logEmergency
+Accept: application/json
+
+###
+GET {{API_URL}}/logError
+Accept: application/json
+
+###
+GET {{API_URL}}/nullObject
+Accept: application/json
+
+###
+GET {{API_URL}}/sleepTen
+Accept: application/json
+
+###
+GET {{API_URL}}/sleepNinety
+Accept: application/json
