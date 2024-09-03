@@ -1,5 +1,5 @@
 {
-    "name": "pay-people/laravel-bugs-generator",
+    "name": "nikitab76/laravel-bugs-generator",
     "type": "project",
     "autoload": {
         "psr-4": {
