@@ -11,6 +11,14 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },
-    "minimum-stability": "stable",
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ]
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
