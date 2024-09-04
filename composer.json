@@ -19,7 +19,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate"
         ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
